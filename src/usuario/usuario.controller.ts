@@ -13,6 +13,5 @@ export class UsuarioController {
   @Post()
   criarUsuario(@Body() dadosDoUsuario) {
     this.usuarioRepository.salvar(dadosDoUsuario);
-    return 'Usuário criado com sucesso!';
   }
 }
