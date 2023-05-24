@@ -5,4 +5,8 @@ export class UsuarioRepository {
     this.usuarioRepository.push(usuario);
     console.log(this.usuarioRepository);
   }
+
+  async listar() {
+    return this.usuarioRepository;
+  }
 }
